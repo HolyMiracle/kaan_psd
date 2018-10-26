@@ -6,8 +6,130 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="./js/index.js"></script>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="wrapper">
+            <nav>
+                <img src="./img/Logo.png" alt="">
+                <ul>
+                    <a href="#work"><li>work</li></a>
+                    <a href="#team"><li>team</li></a>
+                    <a href="#contact"><li>contact</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <div class="wrapper">
+            <div class="main__content">
+                <h1 class="h1">let us make <br> your lives easier</h1>
+                <p class="main__text">We specialize in crafting awesome ideas for web, mobile and beyond.</p>
+                <a href="#work"><div class="btn-scroll"><div class="btn-scroll_ellipse"><img src="./img/arrow_down.png" alt=""></div></div></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="work" class="work">
+        <div class="wrapper">
+            <div class="work__content">
+                <h2 class="h2">featured work</h2>
+                <p class="text__describe">Here you can find some of our latest works, to see the details of these works <br> just click the thumbnails below.</p>
+                <div class="work__grid">
+                    <div class="work__grid-item"><img src="./img/work_1.jpg" alt="grid-item"></div>
+                    <div class="work__grid-item"><img src="./img/work_2.jpg" alt="grid-item"></div>
+                    <div class="work__grid-item"><img src="./img/work_3.jpg" alt="grid-item"></div>
+                    <div class="work__grid-item"><img src="./img/work_4.jpg" alt="grid-item"></div>
+                    <div class="work__grid-item"><img src="./img/work_5.jpg" alt="grid-item"></div>
+                    <div class="work__grid-item"><img src="./img/work_6.jpg" alt="grid-item"></div>
+                    <div class="work__grid-item"><img src="./img/work_7.jpg" alt="grid-item"></div>
+                    <div class="work__grid-item"><img src="./img/work_8.jpg" alt="grid-item"></div>
+                    <div class="work__grid-item"><img src="./img/work_9.jpg" alt="grid-item"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="team" class="team">
+        <div class="wrapper">
+            <div class="team__content">
+                <h3 class="h3">team</h3>
+                <p class="text__describe">We are a hard working group, who's aim is to listen to your problems <br>
+                        and to come up with the best solution possible. We follow the lates trends on <br>
+                        the web to create custom talierd niche websites.</p>
+                <div class="team__grid">
+                    <div class="team__grid-item">
+                        <img src="./img/team_1.png" alt="">
+                        <p class="team__grid-item--name">name surname</p>
+                        <p class="team__grid-item--pos">Lead Developer</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="./img/icon-twitter.png" alt=""></a>
+                            <a href="#"><img src="./img/icon-linkedin.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="team__grid-item">
+                        <img src="./img/team_2.png" alt="">
+                        <p class="team__grid-item--name">name surname</p>
+                        <p class="team__grid-item--pos">Lead Designer</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="./img/icon-twitter.png" alt=""></a>
+                            <a href="#"><img src="./img/icon-dribble.png" alt=""></a>
+                            <a href="#"><img src="./img/icon-linkedin.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="team__grid-item">
+                        <img src="./img/team_3.png" alt="">
+                        <p class="team__grid-item--name">name surname</p>
+                        <p class="team__grid-item--pos">Marketing Director</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="./img/icon-skype.png" alt=""></a>
+                            <a href="#"><img src="./img/icon-linkedin.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="team__grid-item">
+                        <img src="./img/team_4.png" alt="">
+                        <p class="team__grid-item--name">name surname</p>
+                        <p class="team__grid-item--pos">Business Director</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="./img/icon-skype.png" alt=""></a>
+                            <a href="#"><img src="./img/icon-linkedin.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <div class="wrapper">
+            <div class="contact__content">
+                <h3 class="h3">contact</h3>
+                <div class="contact__flex">
+                    <div class="contact__flex-map">
+                        <p class="text__describe">Where are we located</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.7208024828788!2d30.519934102096997!3d50.43284018512078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1540587427466" width="320" height="320" frameborder="0" style="border: 5px solid white; box-shadow: 1px 2px 6px 0px rgba(0, 1, 1, 0.75);" allowfullscreen></iframe>
+                    </div>
+                    <div class="contact__flex-form">
+                        <p class="text__describe">Want to contact us? Just drop us a line below.</p>
+                        <form action="">
+                            <textarea placeholder="Leave us a message..." name="" id="" cols="30" rows="11"></textarea>
+                            <input placeholder="your@mail.com" type="email" name="email">
+                            <button><img src="./img/icon-send.png" alt="">send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="wrapper">
+            <div class="footer__content">
+                <p class="text__describe margin_null"><span style="color:#949494;">Adress:</span> Ahmet Bayman Caddesi No:8, Seyrantepe - Istanbul</p>
+                <p class="text__describe margin_null align-r">Copyright © 2013 Limbo</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
