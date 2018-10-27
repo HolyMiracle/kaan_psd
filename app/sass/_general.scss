@@ -25,7 +25,6 @@ p {
     line-height: 50px;
     color: #303030;
     text-transform: uppercase;
-    // animation: fadein 1s;
 }
 
 .h2 {
@@ -99,7 +98,7 @@ p {
             & a {
                 padding: 10px;
                 margin-left: 10rem;
-                transition: all 1s;
+                transition: all 0.5s;
                 border-radius: 5px;
                 background-color: transparent;
                 &:hover {
@@ -152,7 +151,7 @@ p {
             cursor: pointer;
             width: 260px;
             height: 170px;
-            transition: all 1.5s;
+            transition: all 0.5s;
             &:hover {
                 transform: scale(1.2);
             }
@@ -337,7 +336,6 @@ p {
     height: 80px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.5);
-    // animation: fadein 1s 2s;
     &_ellipse {
         position: absolute;
         top: 50%;

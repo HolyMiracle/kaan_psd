@@ -83,7 +83,7 @@ p {
       .header nav ul a {
         padding: 10px;
         margin-left: 10rem;
-        transition: all 1s;
+        transition: all 0.5s;
         border-radius: 5px;
         background-color: transparent; }
         .header nav ul a:hover {
@@ -124,7 +124,7 @@ p {
       cursor: pointer;
       width: 260px;
       height: 170px;
-      transition: all 1.5s; }
+      transition: all 0.5s; }
       .work__grid-item:hover {
         transform: scale(1.2); }
 
